@@ -1,2 +1,16 @@
-*.h5
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Data files
 *.mat
+*.h5
+*.npy
+*.npz
